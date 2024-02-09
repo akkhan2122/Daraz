@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    gap: 20px;
+    margin-left: 250px;
+    color: white;
+}
+
+.main {
+    background-color: darkorange;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    margin-top: -30px;
+
+}
+
+nav ul {
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 230px;
+    gap: 20px;
+}
+
+.img1 {
+    height: 50px;
+    margin-top: -10px;
+    color: white;
+    /* float: left; */
+
+}
+
+nav ul li {
+    list-style-type: none;
+
+}
+
+.search {
+    padding: 10px 280px 10px 280px;
+    margin-left: 10px;
+    border-radius: 10px;
+    /* margin-top: 15px; */
+}
+
+.navbar {
+    margin-top: 20px;
+    color: white;
+    
+
+}
+
+
+
+
+.box1 {
+    height: 360px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 7px 0px 0px 0px;
+    line-height: 2;
+    color: rgb(28, 27, 27);
+    border-radius: 10px;
+    border-color: whitesmoke;
+    margin-top: 90px;
+}
+
+.icon1 {
+    float: left;
+    padding: 7px 0px 0px 5px;
+    color: black;
+}
+
+.box2 {
+    margin-top: 90px;
+    height: 360px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-image: url(./07323d61-0a16-45e6-9f6f-8c70c99b550e.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: whitesmoke;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+
+}
+
+
+
+.box3 {
+    margin: 0% auto;
+    margin-top: 40px;
+    height: 150px;
+    width: 1000px;
+    border: 2px solid black;
+    background-image: url(./down12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 150px 60px 150px 60px;
+}
+
+
+.box4 {
+    height: 30px;
+    width: 1100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: beige;
+    /* padding: 20px; */
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+}
+
+.border {
+    margin-top: 30px;
+    /* padding: 10px; */
+    margin: 0% auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.icon2 {
+    float: left;
+    color: orange;
+    margin-right: 5px;
+    /* padding: 0px 6px 0px ; */
+}
+.mart{
+    margin-left: 43px;
+}
+.box5 {
+    width: 1100px;
+    height: 140px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.top {
+    margin-top: 50px;
+
+
+}
+
+
+
+
+
+
+.img5 {
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 35%;
+    margin-top: 10px;
+    background-size: cover;
+}
+
+.done {
+    margin-top: 10px;
+}
+
+
+.sale {
+    margin-top: 40px;
+    margin-left: 240px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.parent1 {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40px; */
+}
+
+
+.box6 {
+    height: auto;
+    width: 70%;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.red {
+    color: red;
+}
+
+.btn7 {
+    padding: 10px;
+    margin: 10px;
+    background-color: darkorange;
+    border-color: antiquewhite;
+
+}
+
+.red {
+    /* margin-top: 20px; */
+    margin-left: 20px;
+}
+
+.endd {
+    /* margin-top: 20px; */
+}
+
+.btn8 {
+    margin-left: 590px;
+    /* float: inline-end; */
+    /* margin-top: 20px; */
+ 
+    padding: 7px 10px 7px 10px;
+    color: orange;
+    border-color: antiquewhite;
+}
+.right{
+   float: inline-end;
+}
+
+.oil {
+    height: 150px;
+    /* margin-top: -50px; */
+}
+
+.mt {
+    margin-left: 15px;
+    /* margin-top: 20px; */
+}
+
+.RED {
+    color: darkorange;
+    margin-left: 15px;
+    /* margin-top: -15px; */
+}
+
+.box62 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.boxx{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-color: gray;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* .shampo{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background: none;
+} */
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 15px 0px 5px;
+
+}
+
+
+.box8{
+    height: 250px;
+    width: 180px;
+    border: 1px solid gray;
+    border-color: rgb(220, 220, 220);
+
+}
+.btn12{
+    padding: 10px 140px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: orange;
+    color: darkorange;
+ 
+
+    
+}
+.load{
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+
+
+.cati{
+    height: 120px;
+  margin-left: 30px;
+}
+.cati1{
+    height: 120px;
+  
+}
+
+.tree{
+    width: 180px;
+    height: 150px;
+}
+.rupaya{
+    color: darkorange;
+    font-size: 20px;
+    margin-top: 8px;
+
+}
+.main-parent{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    line-height: 1.5;
+}
+
+.logo3{
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+}
+.pak{
+    position: relative;
+    top:4px;
+    left: 7px;
+}
+.main3{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    width: 200px;
+    gap: 15px;
+}
+.viza{
+    height: 50px;
+}
+.child{
+    display: flex;
+    flex-wrap: wrap;
+}
+.height2{
+    height: 70px;
+}
+
+.scan{
+    height: 100px;
+}
+.height3{
+    height: 100px;
+}
+.parent3{
+    display: flex;
+    gap: 20px;
+}
+.logo6{
+    height: 30px;
+    margin-top: 30px;
+    float: left;
+}
+.happy{
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+.follow{
+    margin-top: 50px;
+}
+.img12{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.images{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+/* .flex2{
+    display: flex;
+} */
+.login{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    color: white;
+}
+.set{
+    position: relative;
+    right:17px;
+}
+.tipp{
+    margin-top: 60px;
+}
+
+.color1{
+    color: darkorange;
+    font-size: 23px;
+}
+.mainn-parentt{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+}
+.mtp{
+    margin-top: 10px;
+    line-height: 1.2;
+}
